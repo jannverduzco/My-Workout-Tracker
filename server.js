@@ -13,6 +13,10 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+// Passing instance of espress through routes
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
+
 // Setting up mongoose
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workouttracker", {
   useNewUrlParser: true,
