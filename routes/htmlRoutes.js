@@ -5,14 +5,14 @@ const path = require("path");
 module.exports = (app) => {
     // GET route to render the root of the app
     app.get("/", (req,res) => {
-        res.sendFile(path.join(_dirname, "./public/index.html"));
+        res.sendFile(path.join(__dirname, "../public/index.html"));
     });
      // GET route to render excerise.html
      app.get("/exercise", (req,res) => {
-        res.sendFile(path.join(_dirname, "./public/exercise.html"));
+        res.sendFile(path.join(__dirname, "../public/exercise.html"));
     });
       // GET route to render stats.html
       app.get("/stats", (req,res) => {
-        res.sendFile(path.join(_dirname, "./public/stats.html"));
+        res.sendFile(path.join(__dirname, "../public/stats.html"));
     });
 };

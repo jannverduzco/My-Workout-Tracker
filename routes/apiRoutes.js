@@ -8,7 +8,6 @@ module.exports = (app) => {
       .find({})
       .then((data) => {
         res.json(data);
-        cd;
       })
       .catch((err) => {
         res.json(err);
