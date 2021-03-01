@@ -36,7 +36,7 @@ module.exports = (app) => {
   // POST workout to add workout
   app.post("/api/workouts", (req, res) => {
     workouts
-      .create(req.body)
+      .create([{}])
       .then((data) => {
         res.json(data);
       })

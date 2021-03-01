@@ -3,11 +3,12 @@ const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
 
+// Setting up Express App and middleware
+const app = express();
+
 // Port
 const PORT = process.env.PORT || 3000;
 
-// Setting up Express App and middleware
-const app = express();
 
 app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
