@@ -9,4 +9,9 @@ module.exports = (app) => {
     app.get("/", (req,res) => {
         res.sendFile(path.join(_dirname, "./public/index.html"));
     });
+     // GET route to render excerise.html
+     app.get("/", (req,res) => {
+        res.sendFile(path.join(_dirname, "./public/exercise.html"));
+    });
+    
 };
