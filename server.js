@@ -23,7 +23,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workouttracker"
 
 // Passing instance of espress through routes
 require("./routes/apiRoutes.js")(app);
-require("./routes/htmlRoutes.js")(app);
+// require("./routes/htmlRoutes.js")(app);
 
 // Settign up Port
 app.listen(PORT, () => {
