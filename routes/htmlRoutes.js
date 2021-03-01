@@ -1,5 +1,4 @@
 // Dependencies
-const workout = require("./models/workout.js");
 const path = require("path");
  
 // exporting routes
@@ -9,11 +8,11 @@ module.exports = (app) => {
         res.sendFile(path.join(_dirname, "./public/index.html"));
     });
      // GET route to render excerise.html
-     app.get("/", (req,res) => {
+     app.get("/exercise", (req,res) => {
         res.sendFile(path.join(_dirname, "./public/exercise.html"));
     });
       // GET route to render stats.html
-      app.get("/", (req,res) => {
+      app.get("/stats", (req,res) => {
         res.sendFile(path.join(_dirname, "./public/stats.html"));
     });
 };
