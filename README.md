@@ -3,7 +3,6 @@
 ## Table of Contents
   * [Description](#Description)
   * [User Story](#User-Story)
-  * [Elevator Pitch](#Elevator-Pitch)
   * [Contributors](#Contributors)
   * [Language/Technoligies Used](#Language/Technologies-Used)
   * [Mock-Up](#Mock-Up)    
@@ -12,6 +11,7 @@
 
 
 ## Description 
+Fitness Tracker allows the user to create, complete and keep history of workouts. The type of workout exercises can be selected to be resistance or cardio. The user can enter various characteristics such as weight, sets, reps and duration as well as distance, depending on the type of exercise chosen(resistance or cario). The workout dashboard section diplays differenct types of charts/graphs such as, line graphs, bar charts and pie charts to display trends.
 
 
 ## User Story
@@ -25,10 +25,6 @@ I WANT to be able to log multiple exercises in a workout on a given day.
 I SHOULD also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 SO THAT I can keep an organized progress of my activity
-```
-## Elevator Pitch
-```
- 
 ```
 ## Contributors
  [Janneth Alvarado Verduzco](https://github.com/jannverduzco) - janneth_verduzco@live.com
@@ -47,17 +43,18 @@ SO THAT I can keep an organized progress of my activity
 
 ## Mock-Up 
 
-### AutoMind (Website-SignUp)
-![GitHub Logo]()
+### Fitness Tracker
+![GitHub Logo](images/mainDisplay.jpg)
+
+### Resistance Exercise Input
+![GitHub Logo](images/resistanceInput.jpg)
+
+### Cardio Exercise Input
+![GitHub Logo](images/cardioInput.jpg)
 
 ### Dashboard Display
-![GitHub Logo]()
+![GitHub Logo](images/dashboard.jpg)
 
-### Added Clients View
-![GitHub Logo]()
-
-### Updating Client Information
-![GitHub Logo]()
 
 ## Live Link (Heroku)
 ### 
