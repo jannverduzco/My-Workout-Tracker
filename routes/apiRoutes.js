@@ -7,6 +7,7 @@ module.exports = (app) => {
     workouts
       .find({})
       .then((data) => {
+        // console.log(data)
         res.json(data);
       })
       .catch((err) => {
@@ -35,7 +36,7 @@ module.exports = (app) => {
   // POST workout to add workout
   app.post("/api/workouts", (req, res) => {
     workouts
-      .create([{}])
+      .create({})
       .then((data) => {
         res.json(data);
       })

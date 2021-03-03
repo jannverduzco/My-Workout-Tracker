@@ -24,6 +24,7 @@ async function initExercise() {
     workout = await API.createWorkout()
     console.log(workout)
   }
+  // console.log(workout)
   if (workout) {
     location.search = "?id=" + workout._id;
   }
