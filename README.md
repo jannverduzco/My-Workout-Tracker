@@ -57,7 +57,7 @@ SO THAT I can keep an organized progress of my activity
 
 
 ## Live Link (Heroku)
-### 
+### https://stay-fit-ness-tracker.herokuapp.com/
 
 ## Repository Link
 ### https://github.com/jannverduzco/My-Workout-Tracker
